@@ -67,7 +67,9 @@ h1, h2, h3, h4, h5, h6, p, a, i {
 }
 
 h1 {
-    font-size: 7.5rem;
+    font-size: 4.5rem;
+    text-align: center;
+    color: white;
 }
 
 h2 {
@@ -84,6 +86,32 @@ h4 {
 
 p, a {
     font-size: 3rem;
+    color: white;
+}
+
+.container_title2 {
+    background-color: rgba(0,0,0,.8);
+    height: 16rem;
+}
+
+.menu2 nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu2 nav a{
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+.logo2 {
+    display: flex;
+    justify-content: center;
+}
+
+.logo2 a {
+    font-size: x-large;
+    margin: 1rem;
 }
 
 /* header section */
@@ -94,6 +122,36 @@ header {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.baslik{
+    background-color: rgba(0,0,0,.8);
+    color: #fff;
+    text-align: center;
+    height: 27rem;
+}
+
+.menubar{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header_nav a{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.header_nav a{
+    color: white;
+
+}
+.logo{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+}
+.fa-brands {    
+    font-size: 5rem; /* İkon boyutunu 32 piksel olarak ayarlayın */
 }
 
 /* spacer */
@@ -118,6 +176,35 @@ header {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    color: white;
+}
+
+.flexmenu   {
+    margin-left: 20rem;
+    margin-right: 20rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.menuBackground{
+    background-color: rgb(0, 4, 17, .8);
+}
+.menu-section {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top:5rem;
+}
+
+.menu-item{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    margin: 1.2;
 }
 
 /* footer section */
@@ -126,6 +213,37 @@ footer {
     height: 15vh;
     padding-top: 2.5vh;
     font-size: 3rem;
+    background-color: black;
+    color: white;
+}
+
+footer nav a {
+    padding-right: 3rem;
+}
+
+.flexfooter{
+    display:flex;
+    justify-content: space-around;
+    color: white;
+}
+
+.footertext{
+    color:white;
+}
+
+.copyright{
+    text-align: end;
+    font-size: 2rem;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.button {
+    display: flex;
 }
 
 /* mobile media query */
@@ -149,4 +267,23 @@ footer {
         padding-top: 2.5vh;
         font-size: 2rem;
     }
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.menu-container {
+    max-width: 900px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: rgba(0,0,0,.8)
+}
+
+.menu-section {
+    width: 40%;
 }

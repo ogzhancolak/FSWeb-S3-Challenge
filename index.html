@@ -9,20 +9,36 @@
 
 	<link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
 	<script src="https://kit.fontawesome.com/5b12ffad4b.js" crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link rel="stylesheet" href="./css/index.css">
 </head>
 
 <body>
 	<div>
 		<!-- header -->
 		<header>
-			<div>
-				ERGİNEER BAR VE MANGAL
+			<div class = "container_title">
+				<h1> <a href="index_html" >ERGİNEER BAR VE MANGAL</a></h1>
 
 				<!-- nav -->
-				Menü
-				Rezervasyonlar
-				Özel Teklifler
-				İletişim
+				<div class="header_nav">
+					<div class="menu">
+						<nav>
+							<a href="menu.html">Menü</a>
+							<a href="#">Rezervasyonlar</a>
+							<a href="#">Özel Teklifler</a>
+							<A href="#">İletişim</A>
+						</nav>
+
+						<div class="logo">
+							<a href="#" class="fa fa-facebook"></a>
+							<a href="#" class="fa fa-twitter"></a>
+							<a href="#" class="fa fa-instagram"></a>
+						</div>
+					</div>
+				</div>
 			</div>
 		</header>
 
@@ -31,23 +47,45 @@
 			<div>
 				<h2>YEMEKLERİMİZ</h2>
 
-				img/food-avocadotoast.jpg
+				<div class="gallery_items">
 
-				img/food-burger.jpg
+					img/food-avocadotoast.jpg
 
-				img/food-poutine.jpg
+					<img src="./img/food-avocadotoast.jpg">
 
-				img/food-ribs.jpg
+					img/food-burger.jpg
 
-				img/food-sandwich.jpg
+					<img src="./img/food-burger.jpg">
 
-				img/food-sausage.jpg
+					img/food-poutine.jpg
 
-				img/food-steak.jpg
+					<img src="./img/food-poutine.jpg">
 
-				img/food-tacos.jpg
+					img/food-ribs.jpg
 
-				img/food-wings.jpg
+					<img src="./img/food-ribs.jpg">
+
+					img/food-sandwich.jpg
+
+					<img src="./img/food-sandwich.jpg">
+
+					img/food-sausage.jpg
+
+					<img src="./img/food-sausage.jpg">
+
+					img/food-steak.jpg
+
+					<img src="./img/food-steak.jpg">
+
+					img/food-tacos.jpg
+
+                	<img src="./img/food-tacos.jpg">
+
+					img/food-wings.jpg
+
+					<img src="./img/food-wings.jpg">
+
+				</div>
 			</div>
 		</section>
 
@@ -124,16 +162,31 @@
 
 		<!-- footer -->
 		<footer>
-			<!-- email signup -->
-			Mail listemize katılın!
-			Üye Ol
-			<!-- nav -->
-			Menü
-			Rezervasyonlar
-			Özel Teklifler
-			İletişim
-			<!-- copyright -->
-			©2022 ERGİNEER Restoran Zinciri, Tüm hakları saklıdır.
+			<div class="flexfooter">
+				<div class="form">
+					<label for="email">
+						<b>
+							Mail listemize katılın!
+						</b>
+					</label>
+					<div class="button">
+						<input type="text" placeholder="E-posta Adresi" name="email" id="email" required> 
+						<button>Üye Ol</button>
+					</div>
+				</div>
+
+				<nav>
+					<a class="footertext" href="./menu.html">Menü</a>
+					<a class="footertext" href="#">Rezervasyonlar</a>
+					<a class="footertext" href="#">Özel Teklifler</a>
+					<a class="footertext" href="#">İletişim</a>
+				</nav>
+				
+			</div>
+
+			<div class="copyright">
+				©2022 ERGİNEER Restoran Zinciri, Tüm hakları saklıdır.
+			</div>
 		</footer>
 	</div>
 </body>
